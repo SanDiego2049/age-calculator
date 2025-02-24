@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px 20px 100px;
+  padding: 2em;
+}
+
+.details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-input {
+  min-width: 50px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: large;
+  font-weight: 800;
+  outline: none;
+}
+
+.card-label {
+  color: #000;
+}
+
+.black-line {
+  background-color: #000;
+  height: 2px;
+  width: 300px;
+}
+
+.input-age {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 15px;
+}
+
+.calculate {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 100px;
+  height: 62px;
+  width: 62px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+h1 {
+  color: #000;
+  margin: 0;
+  font-style: italic;
+}
+
+.variable {
+  color: #8c00ff;
+}
+
+.age-display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
